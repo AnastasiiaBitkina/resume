@@ -1,8 +1,10 @@
 import React from 'react';
+import '@fontsource/rubik';
+
 
 const App: React.FC = () => {
   return (
-    <div>
+    <div style={{ fontFamily: 'rubik', fontSize: '16px' }}>
       <h1>Anton Malkov</h1>
     </div>
   );
