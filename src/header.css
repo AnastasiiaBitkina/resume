@@ -1,0 +1,10 @@
+.roundedImage {
+    width: 178px;
+    height: 178px;
+    border-radius: 50%; 
+    overflow: hidden; 
+    position: absolute;
+    top: 41px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+  }

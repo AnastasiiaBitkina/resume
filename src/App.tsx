@@ -1,11 +1,13 @@
 import React from 'react';
+import Header from './Header';
 import '@fontsource/rubik';
+import './App.css'
 
 
 const App: React.FC = () => {
   return (
-    <div style={{ fontFamily: 'rubik', fontSize: '16px' }}>
-      <h1>Anton Malkov</h1>
+    <div className='container'>
+      <Header />
     </div>
   );
 };
